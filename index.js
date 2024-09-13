@@ -16,7 +16,7 @@ convertBtn.addEventListener("click", function() {
     ${toBeConverted} feet = ${feetToMeter.toFixed(3)} meters`
 
     volume.textContent = `${toBeConverted} liters = ${literToGallon.toFixed(3)} gallons | 
-    ${toBeConverted} gallons = ${GallonToLiter.toFixed(3)} liters`
+    ${toBeConverted} gallons = ${gallonToLiter.toFixed(3)} liters`
 
     mass.textContent = `${toBeConverted} kilos = ${kiloToPound.toFixed(3)} pounds | 
     ${toBeConverted} pounds = ${poundToKilo.toFixed(3)} kilos`
