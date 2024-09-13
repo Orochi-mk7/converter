@@ -9,7 +9,7 @@ convertBtn.addEventListener("click", function() {
     let meterToFeet = toBeConverted * 3.281
     let feetToMeter = toBeConverted / 3.281
     let literToGallon = toBeConverted * 0.264
-    let GallonToLiter = toBeConverted / 0.264
+    let gallonToLiter = toBeConverted / 0.264
     let kiloToPound = toBeConverted * 2.204
     let poundToKilo = toBeConverted / 2.204
     lenght.textContent = `${toBeConverted} meters = ${meterToFeet.toFixed(3)} feet | 
